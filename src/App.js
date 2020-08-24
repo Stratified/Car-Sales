@@ -21,7 +21,6 @@ const App = (props) => {
 };
 
 const mapStateToProps = (state) => {
-	console.log('mapStateToProps');
 	return {
 		additionalPrice: state.additionalPrice,
 		car: state.car,
